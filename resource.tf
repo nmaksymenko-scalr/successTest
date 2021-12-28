@@ -8,6 +8,6 @@ variable "test_input" {
   default="defaut_value"
 }
 
-ouput "test_output" {
+output "test_output" {
   value="ouput_value"
 }
