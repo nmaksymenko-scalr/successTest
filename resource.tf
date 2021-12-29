@@ -1,10 +1,10 @@
 provider "null" {
 }
 
-resource "null_resource" {
+resource "null_resource" "resource_name" {
 }
 
-variable "test_input" "resource_name" {
+variable "test_input" {
   default="defaut_value"
 }
 
