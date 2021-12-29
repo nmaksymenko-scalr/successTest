@@ -4,7 +4,7 @@ provider "null" {
 resource "null_resource" {
 }
 
-variable "test_input" {
+variable "test_input" "resource_name" {
   default="defaut_value"
 }
 
