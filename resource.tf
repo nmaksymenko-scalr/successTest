@@ -1,7 +1,7 @@
 provider "null" {
 }
 
-resource "null_resource" "resource_name" {
+resource "null_resource" {
 }
 
 resource "null_resource" "resource_name1" {
