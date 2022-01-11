@@ -18,7 +18,7 @@ variable "test_input" {
 }
 
 output "test_output" {
-  value="ouput_value"
+  value="ouput_value_very_long_defaut_value_ouput_value_very_long_defaut_value_ouput_value_very_long_defaut_value_ouput_value_very_long_defaut_value"
 }
 
 output "test_output1" {
