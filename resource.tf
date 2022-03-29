@@ -13,6 +13,9 @@ resource "null_resource" "resource_name2" {
 resource "null_resource" "resource_name3" {
 }
 
+resource "null_resource" "resource_name4" {
+}
+
 variable "test_input" {
   default="defaut_value"
 }
@@ -26,9 +29,5 @@ output "test_output1" {
 }
 
 output "test_output2" {
-  value="ouput_value2"
-}
-
-output "test_output3" {
-  value="ouput_value3"
+  value="ouput_value22"
 }
