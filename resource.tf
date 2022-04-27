@@ -16,6 +16,9 @@ resource "null_resource" "resource_name3" {
 resource "null_resource" "resource_name4" {
 }
 
+resource "null_resource" "resource_name5" {
+}
+
 variable "test_input" {
   default="defaut_value"
 }
